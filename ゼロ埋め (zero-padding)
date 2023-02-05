@@ -1,0 +1,9 @@
+ゼロ埋め (zero-padding) 
+ABC230 A - AtCoder Quiz 3
+
+
+C++ 言語では iomanip ライブラリにある std::setfill 関数(日本語) や std::setw 関数(日本語) を用いて
+
+cout << setfill('0') << setw(3) << N;
+
+のように記述すれば簡潔にゼロ埋めを記述することができます
